@@ -5,4 +5,4 @@ function trocarBanner(){
     banner = (banner + 1) % 2;
     document.querySelector("h2#mensagem").textContent = banners[banner];
 }
-setInterval(trocarBanner, 2000);
+setInterval(trocarBanner, 1000);
