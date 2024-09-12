@@ -1,6 +1,7 @@
 var banners = ["Os melhores do Brasil", "Qualidade e preço baixo!"];
 var banner = 0;
 console.log("Hello world!");
+alert("Hello! I am an alert box!!");
 
 function trocarBanner(){
     banner = (banner + 1) % 2;
