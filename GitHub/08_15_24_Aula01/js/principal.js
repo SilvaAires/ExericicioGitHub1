@@ -4,7 +4,7 @@ console.log("Hello world!");
 alert("Hello! I am an alert box!!");
 
 function trocarBanner(){
-    banner = (banner + 1) % 2;
+    banner = (banner + 1) % 4;
     document.querySelector("h2#mensagem").textContent = banners[banner];
 }
 setInterval(trocarBanner, 1000);
