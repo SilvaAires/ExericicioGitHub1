@@ -1,4 +1,4 @@
-var banners = ["Os melhores do Brasil", "Qualidade e preço baixo!"];
+var banners = ["Os melhores do Brasil", "Qualidade e preço baixo!", "Do lixo ao luxo!", "reaproveitar é aproveitar!"];
 var banner = 0;
 console.log("Hello world!");
 alert("Hello! I am an alert box!!");
